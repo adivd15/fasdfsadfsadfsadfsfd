@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/txtCenterType"
+        android:layout_width="546dp"
+        android:layout_height="49dp"
+        android:text="Tip Centru"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCenterAddress"
+        app:layout_constraintVertical_bias="0.056"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/txtCenterAddress"
+        android:layout_width="537dp"
+        android:layout_height="57dp"
+        android:text="Adresa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <EditText
+        android:id="@+id/txtCenterName"
+        android:layout_width="540dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="28dp"
+        android:text="Nume"
+        app:layout_constraintBottom_toTopOf="@+id/txtCenterAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salvare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCenterType" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
